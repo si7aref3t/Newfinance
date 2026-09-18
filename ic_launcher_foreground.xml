@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Briefcase Handle -->
+    <path
+        android:pathData="M44,35 C44,31.7 46.7,29 50,29 L58,29 C61.3,29 64,31.7 64,35 L64,39 L44,39 Z"
+        android:strokeWidth="3.5"
+        android:strokeColor="#F59E0B"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Briefcase / Safe Body with Gradient -->
+    <path android:pathData="M27,41 C27,38.8 28.8,37 31,37 L77,37 C79.2,37 81,38.8 81,41 L81,77 C81,79.2 79.2,81 77,81 L31,81 C28.8,81 27,79.2 27,77 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="27"
+                android:startY="37"
+                android:endX="81"
+                android:endY="81"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#2563EB" />
+                <item android:offset="1.0" android:color="#1D4ED8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Metallic Divider / Belt -->
+    <path
+        android:pathData="M27,53 L81,53"
+        android:strokeWidth="2.5"
+        android:strokeColor="#3B82F6"
+        android:fillColor="#00000000" />
+
+    <!-- Gold Central Emblem Lock / Coin -->
+    <path
+        android:pathData="M54,53 m-9,0 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0"
+        android:fillColor="#FBBF24" />
+
+    <path
+        android:pathData="M54,53 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"
+        android:fillColor="#D97706" />
+
+    <!-- Dollar / Keyhole Center in Coin -->
+    <path
+        android:pathData="M54,49.5 L54,56.5 M52,51 C52,49.8 56,49.8 56,51.5 C56,53.2 52,52.8 52,54.5 C52,56.2 56,56.2 56,55"
+        android:strokeWidth="1.6"
+        android:strokeColor="#FEF3C7"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Upward Growth Arrow (Cyan & Emerald) -->
+    <path
+        android:pathData="M33,72 L47,61 L57,67 L73,50"
+        android:strokeWidth="3.2"
+        android:strokeColor="#10B981"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+
+    <!-- Arrowhead -->
+    <path
+        android:pathData="M66,50 L73,50 L73,57"
+        android:strokeWidth="3.2"
+        android:strokeColor="#10B981"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+</vector>

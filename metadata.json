@@ -1,0 +1,6 @@
+{
+  "name": "المدير المالي",
+  "description": "نظام إدارة الأموال المهني - لوحة تحكم مالية شاملة، إدارة المعاملات، الحسابات البنكية، النقدية، الأصول، الالتزامات، الاستثمارات، الميزانيات والتقارير.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
